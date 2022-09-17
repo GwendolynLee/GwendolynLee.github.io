@@ -1,0 +1,272 @@
+
+/* ---------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
+.row {
+    max-width: 1140px;  
+}
+
+/* ----- HEADINGS ----- */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    color: #e5e5e5;
+    font-size: 4.5rem;
+}
+
+h2 {
+    margin-top: 0;
+    letter-spacing: 2px;
+    color: #e5e5e5;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin: 0 0 25px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    color: yellow;
+}
+
+br {
+    display: none;
+}
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/home_office.jpeg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.front-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* ---------------------------------------- */
+/* NAVIGATION */
+/* ---------------------------------------- */
+
+.nav-wrapper {
+    width: 100%;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: inline-block;
+    list-style-type: none;
+    color: black; 
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem 5rem;
+    padding: 5px 20px;
+    color: #e5e5e5;
+    border: #e5e5e5 1px solid;
+    border-radius: 10px;
+    transition: background 500ms ease;
+}
+
+.nav-buttons:hover {
+    background:#e5e5e5;
+    color:black;
+}
+
+
+/* ---------------------------------------- */
+/* QUOTATION */
+/* ---------------------------------------- */
+
+.quote {
+    background-color: white;
+    color: black;
+    padding: 50px 100px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+/* ---------------------------------------- */
+/* PROJECTS */
+/* ---------------------------------------- */
+
+#projects {
+    background-color: #555;
+    text-align: center;
+    color: #e5e5e5;
+}
+
+#projects h3 {    
+    color: #e5e5e5;
+    padding-top: 20px;
+}
+
+.background-black {
+    background-color: #282828;
+}
+
+.background-medgrey {
+    background-color: #444;
+}
+
+.background-darkgrey {
+    background-color: #333;
+}
+.project_pic {
+    max-width: 500px;
+    padding: 5px;
+}
+
+.project_text {
+    text-align: center;
+    color: #e5e5e5;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+/* ---------------------------------------- */
+/* TECHNOLOGIES */
+/* ---------------------------------------- */
+
+#technologies {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#technologies h3 {
+    color: black;
+}
+
+.tech-logo {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+
+}
+
+.tech-logo_icon img{
+    padding: 0 0em;
+    text-align: center;
+    width: 70%;
+    height: 100%;
+}
+
+
+/* ---------------------------------------- */
+/* ABOUT ME */
+/* ---------------------------------------- */
+
+#aboutme {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    text-align: center;
+    color: #e5e5e5;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.aboutme_text {
+    text-align: left;
+    color: #e5e5e5;
+    font-size: 1.25rem;
+}
+
+.profilepic {
+    border-radius: 200px;
+    max-width: 250px;
+}
+
+/* ---------------------------------------- */
+/* CONTACT */
+/* ---------------------------------------- */
+
+.contact-info {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 5px;
+    color: black;
+    text-align: right;
+}
+
+.social-wrapper {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-buttons {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 5rem;
+    padding: 5px 20px;
+    color: #e5e5e5;
+    transition: background 500ms ease;
+}
+.icon-contact {
+    margin: .5em;
+    font-size: 3rem;
+}
