@@ -54,7 +54,7 @@ a {
 }
 
 p {
-    color: yellow;
+    color:black;
 }
 
 br {
@@ -137,8 +137,22 @@ header {
 }
 
 /* ---------------------------------------- */
-/* PROJECTS */
+/* My Services */
 /* ---------------------------------------- */
+
+.services {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+/* ---------------------------------------- */
+/* PROJECTS */
+/* ----------------------------------------- */
 
 #projects {
     background-color: #555;
